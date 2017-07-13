@@ -1,7 +1,7 @@
 {
-    "name": "ReactCodeSnippets",
+    "name": "reactcodesnippets",
     "description": "React.js Code Snippets for Front End Web Development using ES6 Syntax",
-    "version": "1.4.0",
+    "version": "7.13.0",
     "displayName": "React.js Code Snippets",
     "publisher": "xgqfrms",
     "icon": "images/react.png",
@@ -14,13 +14,14 @@
         "url": "https://github.com//vscode-react-snippets"
     },
     "engines": {
-        "vscode": "1.1.1"
+        "vscode": "1.14.0"
     },
     "categories": [
         "Snippets"
     ],
     "contributes": {
-        "snippets": [{
+        "snippets": [
+            {
                 "language": "javascript",
                 "path": "./snippets/snippets.json"
             },
